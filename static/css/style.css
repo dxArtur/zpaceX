@@ -1,0 +1,35 @@
+body {
+    background-image: url("../../static/media/backgrnd_.jpg");
+    background-size: cover;
+}
+
+.card {
+    background-color: rgb(240, 240, 240);
+    width: 520px;
+    height: 210px;
+    margin-left: 32%;
+    margin-top: 15%;
+    border-radius: 30px;
+    opacity: 0.8;
+    display: flex;
+}
+
+.card a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: blueviolet;
+    font-weight: bold;
+    margin-left: 45%;
+    margin-top: 4%;
+    display: flex;
+
+}
+
+.card input{
+    margin-top: 15%;
+    margin-left: -51%;
+    width: 90%;
+    height: 20%;
+    border-radius: 40px;
+    display: flex;
+    border-style: none;
+}
