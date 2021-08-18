@@ -33,9 +33,10 @@ body {
 
 }
 
-.card input{
-    
-    
+.bttn {
+    display: block;
+    text-decoration: none;
+    color: inherit;
 }
 
 .name{
@@ -65,4 +66,58 @@ body {
 .tospace:hover{
     background-color:blueviolet;
     color: white;
+
+    transition-duration: 0.13s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+
+
+
+
+
+.systemsolar{
+    width: 780px;
+    height: 420px;
+    margin-left: 20%;
+    margin-top: 10%;
+    background-color: white;
+    opacity: 0.4;
+    display: flex;
+    border-radius: 20px;
+}
+
+.sun{
+    background-image: url('../media/sun.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-left: 50%;
+    margin-top: 25%;
+    display: block;
+}
+
+/*
+
+.earth{
+    background-image: url('../media/planet-earth.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-left: 60%;
+    margin-top: 35%;
+    display: block;
+}
+ /*
+
+.mars{
+    background-image: url('../media/mars.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-left: 70%;
+    margin-top: 25%;
+    display: flex;
 }
