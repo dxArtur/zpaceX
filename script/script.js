@@ -7,3 +7,4 @@ function tospace(){
 }
 
 
+var name = querySelectorall('.')
