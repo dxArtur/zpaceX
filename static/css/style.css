@@ -73,51 +73,46 @@ body {
 
 
 
-
-
-
-
-
-.systemsolar{
-    width: 780px;
-    height: 420px;
-    margin-left: 20%;
-    margin-top: 10%;
-    background-color: white;
-    opacity: 0.4;
-    display: flex;
-    border-radius: 20px;
+.options button:hover{
+    background-color:blueviolet;
+    color: white;
+    transition-duration: 0.13s;
+    transition-timing-function: ease-in-out;
 }
 
-.sun{
-    background-image: url('../media/sun.png');
-    background-size: cover;
-    width: 40px;
-    height: 40px;
-    margin-left: 50%;
-    margin-top: 25%;
-    display: block;
+
+.tosofts{
+    width: 750%;
+    height: 18%;
+    margin-left: 30%;
+    margin-top: 45%;
+    border-radius: 40px;
+    border-style: none;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    
 }
 
-/*
-
-.earth{
-    background-image: url('../media/planet-earth.png');
-    background-size: cover;
-    width: 40px;
-    height: 40px;
-    margin-left: 60%;
-    margin-top: 35%;
-    display: block;
+.toabout{
+    width: 750%;
+    height: 18%;
+    margin-left: 30%;
+    margin-top: 29%;
+    border-radius: 40px;
+    border-style: none;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    
 }
- /*
 
-.mars{
-    background-image: url('../media/mars.png');
-    background-size: cover;
-    width: 40px;
-    height: 40px;
-    margin-left: 70%;
-    margin-top: 25%;
-    display: flex;
+.tocontact{
+    width: 750%;
+    height: 18%;
+    margin-left: 30%;
+    margin-top: 29%;
+    border-radius: 40px;
+    border-style: none;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    
 }
