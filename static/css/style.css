@@ -19,7 +19,7 @@ body {
     border-radius: 30px;
     opacity: 0.8;
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'wes fy';
 }
 
 .tittle{
@@ -117,6 +117,15 @@ body {
     
 }
 
+.options{
+    margin-left: 3%;
+    margin-top: 4%;
+    display: inline-flex;
+}
+
+.options_{
+    margin-left: 8%;
+}
 
 .card_ {
     background-color: rgb(240, 240, 240);
@@ -126,7 +135,7 @@ body {
     margin-top: 10%;
     border-radius: 30px;
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'wes fy';
 }
 
 
@@ -138,11 +147,22 @@ body {
 
 }
 
+.about_ {
+    display: inline-table;
+    width: 200%;
+    margin-top: 7%;
+    margin-left: 9%;
+}
+
 .bttnabout {
-    display: inline-flex;
+    display: inline-block;
     width: 130px;
-    height: 130px;
-    border: solid purple;
+    height: 210px;
+    border: solid blueviolet;
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .bttnabout a {
@@ -153,15 +173,55 @@ body {
     display: none;
     width: 350px;
     height: 350px;
-    background-color: rgb(70, 248, 204);
-    border: solid 8px purple;
-    margin-left: 60%;
+    background-color: white;
+    border: solid 4px blueviolet;
+    margin-left: 10%;
+    margin-top: -20%;
     border-radius: 40px;
+    position: absolute;
+    font-family: 'wes fy';
+    box-shadow: rebeccapurple;
+
+}
+
+
+.closemission{
+    width: 99%;
+    height: 40px;
+    margin-left: 0%;
+    margin-top: 76%;
+    border-radius: 0px 0px 30px 30px;
+    border: solid 3px blueviolet;
+}
+
+
+.closewho{
+    width: 96%;
+    height: 40px;
+    margin-left: -3%;
+    margin-top: 56%; 
+}
+
+.close{
+    width: 106%;
+    height: 40px;
+    margin-left: -5% ;
+    margin-top: 60%;
+    border-radius: 0px 0px 30px 30px;
+    border: solid 3px blueviolet;
+
+}
+
+
+.options_ :hover{
+    
+    transform: translateX(8%) scale(1.1);
 }
 
 
 #what{
     display: none;
+    padding-left: 1%;
     
 }
 

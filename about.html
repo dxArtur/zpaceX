@@ -11,22 +11,31 @@
     <div class="content">
         <div class="card_">
             <div class="about_">
-                <div class="">
-                    <button class="bttnabout" onclick="showwhat(this.id)"><a>What is zpaceX?</a></button> 
-                    <button class="bttnabout" onclick="showmission()"><a>Our mission</a></button>
-                    <button class="bttnabout" onclick="showwho()"><a>Who we are?</a></button>
+                <div class="options">
+                    <div class="options_">
+                        <button class="bttnabout" onclick="showwhat()"><a>What is zpaceX?</a></button> 
+                    </div>
+                    <div class="options_">
+                        <button class="bttnabout" onclick="showmission()"><a>Our mission</a></button>
+                    </div>
+                    <div class="options_">
+                        <button class="bttnabout" onclick="showwho()"><a>Who we are?</a></button>
+                    </div>
                 </div>
                 <div class="cardocult">
                     <div class="aboutm" id="what">
                         <div class="pic"></div>
                         <a>we are software spacial game development company</a>
+                        <div><button class="close" onclick="showwhat()"><a>close</a></button></div>
                     </div>
                     <div class="aboutm" id="mission">
                         <a>we want to make space software that can take you to other worlds</a>
+                        <div class="closemission"><button class="close" onclick="showmission()"><a>close</a></button></div>
                     </div>
                     <div class="aboutm" id="who">
                         <a>hi i'm daniel artur</a>
                         <a>hi i'm naline belo</a>
+                        <div class="closewho"><button class="close" onclick="showwho()"><a>close</a></button></div>
                     </div>
                 </div>
                 

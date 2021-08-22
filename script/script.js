@@ -12,9 +12,6 @@ bttn.addEventListener('click', function(){
 
 
 
-if(id)
-
-
 
 function tospace(){
     var name = document.querySelectorAll('.name');
@@ -24,6 +21,8 @@ function tospace(){
 
 
 var name = querySelectorall('.')
+
+
 
 
 function showwhat(){
