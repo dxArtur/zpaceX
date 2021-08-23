@@ -118,9 +118,10 @@ body {
 }
 
 .options{
-    margin-left: 3%;
-    margin-top: 4%;
-    display: inline-flex;
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 12%;
+    display: block;
 }
 
 .options_{
