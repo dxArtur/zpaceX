@@ -121,6 +121,10 @@ body {
   margin-left: 2%;
   margin-top: 2%;
   width: 12%;
+  display: block;
+}
+
+.about_ .options{
   display: inline-flex;
 }
 
