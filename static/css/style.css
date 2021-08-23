@@ -1,242 +1,230 @@
 body {
-    background-image: url("../../static/media/backgrnd_.jpg");
-    background-size: cover;
+  background: url("../../static/media/backgrnd_.jpg") no-repeat center center
+    fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-@font-face{
-    font-family: 'wes fy';
-    src: url('../font/Wes\ FY\ W03\ Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+@font-face {
+  font-family: "wes fy";
+  src: url("../font/Wes\ FY\ W03\ Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 .card {
-    background-color: rgb(240, 240, 240);
-    width: 520px;
-    height: 210px;
-    margin-left: 32%;
-    margin-top: 15%;
-    border-radius: 30px;
-    opacity: 0.8;
-    display: flex;
-    font-family: 'wes fy';
+  background-color: rgb(240, 240, 240);
+  width: 520px;
+  height: 210px;
+  margin-left: 32%;
+  margin-top: 15%;
+  border-radius: 30px;
+  opacity: 0.8;
+  display: flex;
+  font-family: "wes fy";
 }
 
-.tittle{
-    font-family: 'wes fy';
-    font-size: 18pt;
-    color: blueviolet;
-    font-weight: bolder;
-    margin-left: 42%;
-    margin-top: 4%;
-    display: flex;
-
+.tittle {
+  font-family: "wes fy";
+  font-size: 18pt;
+  color: blueviolet;
+  font-weight: bolder;
+  margin-left: 42%;
+  margin-top: 4%;
+  display: flex;
 }
 
 .bttn {
-    display: block;
-    text-decoration: none;
-    color: inherit;
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 
-.name{
-    margin-top: 15%;
-    margin-left: -53%;
-    width: 85%;
-    height: 20%;
-    border-radius: 40px;
-    display: flex;
-    border-style: none;
-    border: 1px solid blueviolet;
-    padding-left: 4%;
+.name {
+  margin-top: 15%;
+  margin-left: -53%;
+  width: 85%;
+  height: 20%;
+  border-radius: 40px;
+  display: flex;
+  border-style: none;
+  border: 1px solid blueviolet;
+  padding-left: 4%;
 }
 
-.tospace{
-    width: 50%;
-    height: 15%;
-    margin-left: -68%;
-    margin-top: 29%;
-    border-radius: 40px;
-    border-style: none;
-    border: 1px solid blueviolet;
-    color: blueviolet;
-    
+.tospace {
+  width: 50%;
+  height: 15%;
+  margin-left: -68%;
+  margin-top: 29%;
+  border-radius: 40px;
+  border-style: none;
+  border: 1px solid blueviolet;
+  color: blueviolet;
 }
 
-.tospace:hover{
-    background-color:blueviolet;
-    color: white;
+.tospace:hover {
+  background-color: blueviolet;
+  color: white;
 
-    transition-duration: 0.13s;
-    transition-timing-function: ease-in-out;
+  transition-duration: 0.13s;
+  transition-timing-function: ease-in-out;
 }
 
-
-
-.options button:hover{
-    background-color:blueviolet;
-    color: white;
-    transition-duration: 0.13s;
-    transition-timing-function: ease-in-out;
+.options button:hover {
+  background-color: blueviolet;
+  color: white;
+  transition-duration: 0.13s;
+  transition-timing-function: ease-in-out;
 }
 
-
-.tosofts{
-    width: 750%;
-    height: 18%;
-    margin-left: 30%;
-    margin-top: 45%;
-    border-radius: 40px;
-    border-style: none;
-    border: 1px solid blueviolet;
-    color: blueviolet;
-    
+.tosofts {
+  width: 750%;
+  height: 18%;
+  margin-left: 30%;
+  margin-top: 45%;
+  border-radius: 40px;
+  border-style: none;
+  border: 1px solid blueviolet;
+  color: blueviolet;
 }
 
-.toabout{
-    width: 750%;
-    height: 18%;
-    margin-left: 30%;
-    margin-top: 29%;
-    border-radius: 40px;
-    border-style: none;
-    border: 1px solid blueviolet;
-    color: blueviolet;
-    
+.toabout {
+  width: 750%;
+  height: 18%;
+  margin-left: 30%;
+  margin-top: 29%;
+  border-radius: 40px;
+  border-style: none;
+  border: 1px solid blueviolet;
+  color: blueviolet;
 }
 
-.tocontact{
-    width: 750%;
-    height: 18%;
-    margin-left: 30%;
-    margin-top: 29%;
-    border-radius: 40px;
-    border-style: none;
-    border: 1px solid blueviolet;
-    color: blueviolet;
-    
+.tocontact {
+  width: 750%;
+  height: 18%;
+  margin-left: 30%;
+  margin-top: 29%;
+  border-radius: 40px;
+  border-style: none;
+  border: 1px solid blueviolet;
+  color: blueviolet;
 }
 
-.options{
-    margin-left: 3%;
-    margin-top: 4%;
-    display: inline-flex;
+.options {
+  margin-left: 3%;
+  margin-top: 4%;
+  display: inline-flex;
 }
 
-.options_{
-    margin-left: 8%;
+.options_ {
+  margin-left: 8%;
 }
 
 .card_ {
-    background-color: rgb(240, 240, 240);
-    width: 720px;
-    height: 410px;
-    margin-left: 24%;
-    margin-top: 10%;
-    border-radius: 30px;
-    display: flex;
-    font-family: 'wes fy';
+  background-color: rgb(240, 240, 240);
+  width: 720px;
+  height: 410px;
+  margin-left: 24%;
+  margin-top: 10%;
+  border-radius: 30px;
+  display: flex;
+  font-family: "wes fy";
 }
 
-
-.pic{
-    width: 130px;
-    height: 180px;
-    background-image:url("../../static/media/arturphoto.jpeg");
-    background-size: cover;
-
+.pic {
+  width: 130px;
+  height: 180px;
+  background-image: url("../../static/media/arturphoto.jpeg");
+  background-size: cover;
 }
 
 .about_ {
-    display: inline-table;
-    width: 200%;
-    margin-top: 7%;
-    margin-left: 9%;
+  display: inline-table;
+  width: 200%;
+  margin-top: 7%;
+  margin-left: 9%;
 }
 
 .bttnabout {
-    display: inline-block;
-    width: 130px;
-    height: 210px;
-    border: solid blueviolet;
-    margin-top: 10%;
-    margin-left: 10%;
-    border-radius: 10px;
-    font-weight: bold;
+  display: inline-block;
+  width: 130px;
+  height: 210px;
+  border: solid blueviolet;
+  margin-top: 10%;
+  margin-left: 10%;
+  border-radius: 10px;
+  font-weight: bold;
 }
 
 .bttnabout a {
-    text-align: center;
+  text-align: center;
 }
 
-.cardocult .aboutm{
-    display: none;
-    width: 350px;
-    height: 350px;
-    background-color: white;
-    border: solid 4px blueviolet;
-    margin-left: 10%;
-    margin-top: -20%;
-    border-radius: 40px;
-    position: absolute;
-    font-family: 'wes fy';
-    box-shadow: rebeccapurple;
-
+.cardocult .aboutm {
+  display: none;
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  border: solid 4px blueviolet;
+  margin-left: 10%;
+  margin-top: -20%;
+  border-radius: 40px;
+  position: absolute;
+  font-family: "wes fy";
+  box-shadow: rebeccapurple;
 }
 
-
-.closemission{
-    width: 99%;
-    height: 40px;
-    margin-left: 0%;
-    margin-top: 76%;
-    border-radius: 0px 0px 30px 30px;
-    border: solid 3px blueviolet;
+.closemission {
+  width: 99%;
+  height: 40px;
+  margin-left: 0%;
+  margin-top: 76%;
+  border-radius: 0px 0px 30px 30px;
+  border: solid 3px blueviolet;
 }
 
-
-.closewho{
-    width: 96%;
-    height: 40px;
-    margin-left: -3%;
-    margin-top: 56%; 
+.closewho {
+  width: 96%;
+  height: 40px;
+  margin-left: -3%;
+  margin-top: 56%;
 }
 
-.close{
-    width: 106%;
-    height: 40px;
-    margin-left: -5% ;
-    margin-top: 60%;
-    border-radius: 0px 0px 30px 30px;
-    border: solid 3px blueviolet;
-
+.close {
+  width: 106%;
+  height: 40px;
+  margin-left: -5%;
+  margin-top: 60%;
+  border-radius: 0px 0px 30px 30px;
+  border: solid 3px blueviolet;
 }
 
-
-.options_ :hover{
-    
-    transform: translateX(8%) scale(1.1);
+.options_ :hover {
+  transform: translateX(8%) scale(1.1);
 }
 
-
-#what{
-    display: none;
-    padding-left: 1%;
-    
+#what {
+  display: none;
+  padding-left: 1%;
 }
 
-.pic{
-    margin-left: 45%;
-    width: 20%;
-    height: 20%;
-    background-image: url("../../static/media/rocket-48.png");
-    background-size: cover;
+.pic {
+  margin-left: 45%;
+  width: 20%;
+  height: 20%;
+  background-image: url("../../static/media/rocket-48.png");
+  background-size: cover;
 }
 
-#who{
-    display: none;
+#who {
+  display: none;
+  padding-left: 1%;
 }
 
-#mission{
-    display: none;
+#mission {
+  display: none;
+  padding-left: 1%;
 }
