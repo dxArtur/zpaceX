@@ -1,15 +1,11 @@
 body {
-  background: url("../../static/media/backgrnd_.jpg") no-repeat center center
-    fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-image: url("../../static/media/backgrnd_.jpg");
   background-size: cover;
 }
 
-@font-face {
-  font-family: "wes fy";
-  src: url("../font/Wes\ FY\ W03\ Bold.ttf") format("truetype");
+@font-face{
+  font-family: 'wes fy';
+  src: url('../font/Wes\ FY\ W03\ Bold.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -23,17 +19,18 @@ body {
   border-radius: 30px;
   opacity: 0.8;
   display: flex;
-  font-family: "wes fy";
+  font-family: 'wes fy';
 }
 
-.tittle {
-  font-family: "wes fy";
+.tittle{
+  font-family: 'wes fy';
   font-size: 18pt;
   color: blueviolet;
   font-weight: bolder;
   margin-left: 42%;
   margin-top: 4%;
   display: flex;
+
 }
 
 .bttn {
@@ -42,7 +39,7 @@ body {
   color: inherit;
 }
 
-.name {
+.name{
   margin-top: 15%;
   margin-left: -53%;
   width: 85%;
@@ -54,7 +51,7 @@ body {
   padding-left: 4%;
 }
 
-.tospace {
+.tospace{
   width: 50%;
   height: 15%;
   margin-left: -68%;
@@ -63,24 +60,28 @@ body {
   border-style: none;
   border: 1px solid blueviolet;
   color: blueviolet;
+  
 }
 
-.tospace:hover {
-  background-color: blueviolet;
+.tospace:hover{
+  background-color:blueviolet;
   color: white;
 
   transition-duration: 0.13s;
   transition-timing-function: ease-in-out;
 }
 
-.options button:hover {
-  background-color: blueviolet;
+
+
+.options button:hover{
+  background-color:blueviolet;
   color: white;
   transition-duration: 0.13s;
   transition-timing-function: ease-in-out;
 }
 
-.tosofts {
+
+.tosofts{
   width: 750%;
   height: 18%;
   margin-left: 30%;
@@ -89,9 +90,10 @@ body {
   border-style: none;
   border: 1px solid blueviolet;
   color: blueviolet;
+  
 }
 
-.toabout {
+.toabout{
   width: 750%;
   height: 18%;
   margin-left: 30%;
@@ -100,9 +102,10 @@ body {
   border-style: none;
   border: 1px solid blueviolet;
   color: blueviolet;
+  
 }
 
-.tocontact {
+.tocontact{
   width: 750%;
   height: 18%;
   margin-left: 30%;
@@ -111,16 +114,18 @@ body {
   border-style: none;
   border: 1px solid blueviolet;
   color: blueviolet;
+  
 }
 
-.options {
-  margin-left: 3%;
-  margin-top: 4%;
+.options{
+  margin-left: 2%;
+  margin-top: 2%;
+  width: 12%;
   display: inline-flex;
 }
 
-.options_ {
-  margin-left: 8%;
+.options_{
+  margin-left: 50%;
 }
 
 .card_ {
@@ -131,14 +136,16 @@ body {
   margin-top: 10%;
   border-radius: 30px;
   display: flex;
-  font-family: "wes fy";
+  font-family: 'wes fy';
 }
 
-.pic {
+
+.pic{
   width: 130px;
   height: 180px;
-  background-image: url("../../static/media/arturphoto.jpeg");
+  background-image:url("../../static/media/arturphoto.jpeg");
   background-size: cover;
+
 }
 
 .about_ {
@@ -163,7 +170,7 @@ body {
   text-align: center;
 }
 
-.cardocult .aboutm {
+.cardocult .aboutm{
   display: none;
   width: 350px;
   height: 350px;
@@ -173,45 +180,106 @@ body {
   margin-top: -20%;
   border-radius: 40px;
   position: absolute;
-  font-family: "wes fy";
+  font-family: 'wes fy';
   box-shadow: rebeccapurple;
+
 }
 
-.closemission {
-  width: 99%;
-  height: 40px;
-  margin-left: 0%;
-  margin-top: 76%;
-  border-radius: 0px 0px 30px 30px;
-  border: solid 3px blueviolet;
+
+.close{
+  
 }
 
-.closewho {
-  width: 96%;
-  height: 40px;
-  margin-left: -3%;
-  margin-top: 56%;
-}
 
-.close {
-  width: 106%;
+.closemission{
+  width: 102%;
   height: 40px;
-  margin-left: -5%;
+  margin-left: -1% ;
   margin-top: 60%;
   border-radius: 0px 0px 30px 30px;
   border: solid 3px blueviolet;
 }
 
-.options_ :hover {
+#mission .pic{
+  margin-left: 40%;
+  width: 20%;
+  height: 20%;
+  background-image: url("../../static/media/jumping.gif");
+  background-size: cover;
+  border-radius: 50%;
+
+}
+
+#me{
+  margin-left: 13%;
+  width: 20%;
+  height: 20%;
+  background-image: url("../../static/media/arturphoto.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  margin-top: 10%;
+
+}
+
+#naline{
+  margin-top: -20%;
+  margin-left: 60%;
+  width: 20%;
+  height: 20%;
+  background-image: url("../../static/media/nalinephoto.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.nalinehi{
+  margin-left: 10%;
+
+}
+
+.arturhi{
+  margin-left: 5%;
+}
+
+
+#who{
+  display: inline-flex;
+
+}
+
+
+.closewho{
+  width: 102%;
+  height: 40px;
+  margin-left: -1%;
+  margin-top: 48%;
+  border-radius: 0px 0px 30px 30px;
+  border: solid 3px blueviolet; 
+}
+
+.closewhat{
+  width: 106%;
+  height: 40px;
+  margin-left: -5% ;
+  margin-top: 60%;
+  border-radius: 0px 0px 30px 30px;
+  border: solid 3px blueviolet;
+
+}
+
+
+.options_ :hover{
+  
   transform: translateX(8%) scale(1.1);
 }
 
-#what {
+
+#what{
   display: none;
   padding-left: 1%;
+  
 }
 
-.pic {
+.pic{
   margin-left: 45%;
   width: 20%;
   height: 20%;
@@ -219,12 +287,10 @@ body {
   background-size: cover;
 }
 
-#who {
+#who{
   display: none;
-  padding-left: 1%;
 }
 
-#mission {
+#mission{
   display: none;
-  padding-left: 1%;
 }
