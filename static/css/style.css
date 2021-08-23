@@ -185,24 +185,77 @@ body {
 }
 
 
+.close{
+    
+}
+
+
 .closemission{
-    width: 99%;
+    width: 102%;
     height: 40px;
-    margin-left: 0%;
-    margin-top: 76%;
+    margin-left: -1% ;
+    margin-top: 60%;
     border-radius: 0px 0px 30px 30px;
     border: solid 3px blueviolet;
 }
 
+#mission .pic{
+    margin-left: 40%;
+    width: 20%;
+    height: 20%;
+    background-image: url("../../static/media/jumping.gif");
+    background-size: cover;
+    border-radius: 50%;
 
-.closewho{
-    width: 96%;
-    height: 40px;
-    margin-left: -3%;
-    margin-top: 56%; 
 }
 
-.close{
+#me{
+    margin-left: 13%;
+    width: 20%;
+    height: 20%;
+    background-image: url("../../static/media/arturphoto.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 10%;
+
+}
+
+#naline{
+    margin-top: -20%;
+    margin-left: 60%;
+    width: 20%;
+    height: 20%;
+    background-image: url("../../static/media/nalinephoto.jpeg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.nalinehi{
+    margin-left: 10%;
+
+}
+
+.arturhi{
+    margin-left: 5%;
+}
+
+
+#who{
+    display: inline-flex;
+
+}
+
+
+.closewho{
+    width: 102%;
+    height: 40px;
+    margin-left: -1%;
+    margin-top: 48%;
+    border-radius: 0px 0px 30px 30px;
+    border: solid 3px blueviolet; 
+}
+
+.closewhat{
     width: 106%;
     height: 40px;
     margin-left: -5% ;
